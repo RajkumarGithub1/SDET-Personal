@@ -1,16 +1,14 @@
 package qsp;
 
 
-import java.awt.Robot;
 import java.awt.AWTException;
+import java.awt.Robot;
 import java.awt.event.KeyEvent;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.devtools.v85.input.Input.DispatchKeyEventType;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
 public class MouseKeyboardActions 
@@ -78,11 +76,12 @@ public class MouseKeyboardActions
 //		Actions a = new Actions(driver);
 //		a.contextClick(link).perform();
 //		
-//		Thread.sleep(3000);
-//		Robot r1 = new Robot();
+		Thread.sleep(3000);
+		Robot r1 = new Robot();
 //		r1.keyPress(KeyEvent.VK_T);
 //		r1.keyRelease(KeyEvent.VK_T);
 		
+		r1.keyPress(KeyEvent.VK_T);
 		
 		
 		

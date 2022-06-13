@@ -14,9 +14,10 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.google.common.io.Files;
 
+
 public class TakesScreenShots 
 {
-	public static void main(String[] args) throws IOException 
+	public static void main(String[] args) throws IOException
 	{
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
